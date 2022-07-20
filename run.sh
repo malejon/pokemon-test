@@ -6,3 +6,4 @@ php artisan db:seed
 php artisan queue:work --tries=3 &
 php artisan cache:clear
 composer dump-autoload
+touch database/database.sqlite
